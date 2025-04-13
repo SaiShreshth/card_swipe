@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color:#333;
+        color:antiquewhite;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    h1 {
+        color:beige;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .card {
+        width: 300px;
+        height: 500px;
+        background-color: #444;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: white;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+</style>
+<body>
+    <h1>Tinder Simulator</h1>
+    <div class="container">
+        <div class="card" id="card1">Card 1
+            <div class="buttons" style="color: rgb(206, 132, 58);">@</div>
+            <div class="buttons" style="color: red;">X</div>
+            <div class="buttons" style="color: green">V</div>
+        </div>
+    </div>
+</body>
+</html>
